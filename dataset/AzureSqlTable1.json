@@ -1,0 +1,346 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Max _kmd_lmt",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "actualDiversity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "actualLocal",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "addressJobsiteCountry",
+				"type": "nvarchar"
+			},
+			{
+				"name": "addressPermanentCity",
+				"type": "nvarchar"
+			},
+			{
+				"name": "addressPermanentCountry",
+				"type": "nvarchar"
+			},
+			{
+				"name": "addressPermanentState",
+				"type": "nvarchar"
+			},
+			{
+				"name": "defaultPackageContractualReviewDuration",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "defaultPackagePendingDuration",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "defaultRFIContractualReviewDuration",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "defaultPendingItemCompletionDuration",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "defaultPunchListCompletionDuration",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "defaultWarrantyCompletionDuration",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "estimatedProjectValue",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "isActive",
+				"type": "bit"
+			},
+			{
+				"name": "isConfidential",
+				"type": "bit"
+			},
+			{
+				"name": "isPrivate",
+				"type": "bit"
+			},
+			{
+				"name": "name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "planDiversity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "planLocal",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "projectionCost",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "projectionFee",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "size",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "isCostLocked",
+				"type": "bit"
+			},
+			{
+				"name": "savingsThreshold",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "isSyncable",
+				"type": "bit"
+			},
+			{
+				"name": "keywords",
+				"type": "nvarchar"
+			},
+			{
+				"name": "durationConstruction",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "idDomino",
+				"type": "nvarchar"
+			},
+			{
+				"name": "idSQL",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "addressJobsiteCity",
+				"type": "nvarchar"
+			},
+			{
+				"name": "addressJobsitePostal",
+				"type": "nvarchar"
+			},
+			{
+				"name": "addressJobsiteState",
+				"type": "nvarchar"
+			},
+			{
+				"name": "addressJobsiteStreet1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "addressPermanentPostal",
+				"type": "nvarchar"
+			},
+			{
+				"name": "addressPermanentStreet1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "businessUnitManaging",
+				"type": "nvarchar"
+			},
+			{
+				"name": "dateContractualEnd",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "dateContractualStart",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "dateContractualSubstantial",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "datePreconEnd",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "datePreconStart",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "dateStaffingEnd",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "dateStaffingStart",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "dateWarrantyEnd",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "number",
+				"type": "nvarchar"
+			},
+			{
+				"name": "numberJobControlling",
+				"type": "nvarchar"
+			},
+			{
+				"name": "timezone",
+				"type": "nvarchar"
+			},
+			{
+				"name": "isBillable",
+				"type": "bit"
+			},
+			{
+				"name": "totalCompany",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "totalPeople",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "deliveryMethod",
+				"type": "nvarchar"
+			},
+			{
+				"name": "description",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_kmd_lmt",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "silver_starttime",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "collection_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "refMarketPrimary_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "status_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "photo_normalizedURL",
+				"type": "nvarchar"
+			},
+			{
+				"name": "autoDeauthorizationDuration",
+				"type": "nvarchar"
+			},
+			{
+				"name": "changeItemDefaultLanguage",
+				"type": "nvarchar"
+			},
+			{
+				"name": "dateConstructionEnd",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "dateConstructionStart",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "dateContract",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "defaultDeliveryContingency",
+				"type": "nvarchar"
+			},
+			{
+				"name": "defaultPackageContingency",
+				"type": "nvarchar"
+			},
+			{
+				"name": "defaultRegisterContingency",
+				"type": "nvarchar"
+			},
+			{
+				"name": "phoneJobsite",
+				"type": "nvarchar"
+			},
+			{
+				"name": "planBond",
+				"type": "nvarchar"
+			},
+			{
+				"name": "planInsurance",
+				"type": "nvarchar"
+			},
+			{
+				"name": "planUnion",
+				"type": "nvarchar"
+			},
+			{
+				"name": "proposalStatus",
+				"type": "nvarchar"
+			},
+			{
+				"name": "savingsPercentage",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "current",
+			"table": "projects"
+		}
+	}
+}

@@ -1,0 +1,708 @@
+{
+	"name": "JsonSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "jasonsource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "a003b99c-ad72-4320-a1d9-f7a260786558.json",
+				"container": "testjason"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"_id": {
+					"type": "string"
+				},
+				"_acl": {
+					"type": "object",
+					"properties": {
+						"creator": {
+							"type": "string"
+						}
+					}
+				},
+				"actualDiversity": {
+					"type": "integer"
+				},
+				"actualLocal": {
+					"type": "integer"
+				},
+				"addressJobsiteCountry": {
+					"type": "string"
+				},
+				"addressPermanentCity": {
+					"type": "string"
+				},
+				"addressPermanentCountry": {
+					"type": "string"
+				},
+				"addressPermanentState": {
+					"type": "string"
+				},
+				"defaultPackageContractualReviewDuration": {
+					"type": "integer"
+				},
+				"defaultPackagePendingDuration": {
+					"type": "integer"
+				},
+				"defaultRFIContractualReviewDuration": {
+					"type": "integer"
+				},
+				"defaultPendingItemCompletionDuration": {
+					"type": "integer"
+				},
+				"defaultPunchListCompletionDuration": {
+					"type": "integer"
+				},
+				"defaultWarrantyCompletionDuration": {
+					"type": "integer"
+				},
+				"deliverableTypes": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"estimatedProjectValue": {
+					"type": "integer"
+				},
+				"isActive": {
+					"type": "boolean"
+				},
+				"isConfidential": {
+					"type": "boolean"
+				},
+				"isPrivate": {
+					"type": "boolean"
+				},
+				"name": {
+					"type": "string"
+				},
+				"planDiversity": {
+					"type": "integer"
+				},
+				"planLocal": {
+					"type": "integer"
+				},
+				"projectionCost": {
+					"type": "integer"
+				},
+				"projectionFee": {
+					"type": "integer"
+				},
+				"refCompaniesAdmin": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"_id": {
+								"type": "string"
+							},
+							"isActive": {
+								"type": "boolean"
+							},
+							"name": {
+								"type": "string"
+							},
+							"isManagingPhotos": {
+								"type": "boolean"
+							},
+							"logo": {
+								"type": "object",
+								"properties": {
+									"entityID": {
+										"type": "string"
+									},
+									"creatorID": {
+										"type": "string"
+									},
+									"mimeType": {
+										"type": "string"
+									},
+									"filename": {
+										"type": "string"
+									},
+									"created": {
+										"type": "string"
+									},
+									"downloadURL": {
+										"type": "string"
+									},
+									"thumbnailId": {
+										"type": "string"
+									},
+									"thumbnailURL": {
+										"type": "string"
+									},
+									"normalizedURL": {
+										"type": "string"
+									},
+									"normalizedID": {
+										"type": "string"
+									},
+									"size": {
+										"type": "integer"
+									}
+								}
+							}
+						}
+					}
+				},
+				"refTypes": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"isActive": {
+								"type": "boolean"
+							},
+							"name": {
+								"type": "string"
+							},
+							"_id": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"status": {
+					"type": "object",
+					"properties": {
+						"name": {
+							"type": "string"
+						},
+						"rank": {
+							"type": "integer"
+						}
+					}
+				},
+				"size": {
+					"type": "integer"
+				},
+				"isCostLocked": {
+					"type": "boolean"
+				},
+				"savingsThreshold": {
+					"type": "integer"
+				},
+				"boxRefs": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"Name": {
+								"type": "string"
+							},
+							"type": {
+								"type": "string"
+							},
+							"ID": {
+								"type": "string"
+							},
+							"SharedID": {
+								"type": "string"
+							},
+							"SharedURL": {
+								"type": "string"
+							},
+							"EgnyteID": {
+								"type": "string"
+							},
+							"EgnytePath": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"isSyncable": {
+					"type": "boolean"
+				},
+				"_geoloc": {
+					"type": "array"
+				},
+				"keywords": {
+					"type": "string"
+				},
+				"durationConstruction": {
+					"type": "integer"
+				},
+				"idDomino": {
+					"type": "string"
+				},
+				"idSQL": {
+					"type": "integer"
+				},
+				"_kmd": {
+					"type": "object",
+					"properties": {
+						"lmt": {
+							"type": "string"
+						},
+						"ect": {
+							"type": "string"
+						}
+					}
+				},
+				"refCompanyAdminManaging": {
+					"type": "object",
+					"properties": {
+						"_id": {
+							"type": "string"
+						},
+						"isActive": {
+							"type": "boolean"
+						},
+						"name": {
+							"type": "string"
+						}
+					}
+				},
+				"addressJobsiteCity": {
+					"type": "string"
+				},
+				"addressJobsitePostal": {
+					"type": "string"
+				},
+				"addressJobsiteState": {
+					"type": "string"
+				},
+				"addressJobsiteStreet1": {
+					"type": "string"
+				},
+				"addressPermanentPostal": {
+					"type": "string"
+				},
+				"addressPermanentStreet1": {
+					"type": "string"
+				},
+				"businessUnitManaging": {
+					"type": "string"
+				},
+				"dateContractualEnd": {
+					"type": "string"
+				},
+				"dateContractualStart": {
+					"type": "string"
+				},
+				"dateContractualSubstantial": {
+					"type": "string"
+				},
+				"datePreconEnd": {
+					"type": "string"
+				},
+				"datePreconStart": {
+					"type": "string"
+				},
+				"dateStaffingEnd": {
+					"type": "string"
+				},
+				"dateStaffingStart": {
+					"type": "string"
+				},
+				"dateWarrantyEnd": {
+					"type": "string"
+				},
+				"logo": {
+					"type": "object",
+					"properties": {
+						"created": {
+							"type": "string"
+						},
+						"creatorID": {
+							"type": "string"
+						},
+						"downloadURL": {
+							"type": "string"
+						},
+						"entityID": {
+							"type": "string"
+						},
+						"filename": {
+							"type": "string"
+						},
+						"mimeType": {
+							"type": "string"
+						},
+						"size": {
+							"type": "integer"
+						},
+						"thumbnailId": {
+							"type": "string"
+						},
+						"thumbnailURL": {
+							"type": "string"
+						},
+						"normalizedID": {
+							"type": "string"
+						},
+						"normalizedURL": {
+							"type": "string"
+						}
+					}
+				},
+				"number": {
+					"type": "string"
+				},
+				"numberJobControlling": {
+					"type": "string"
+				},
+				"numbersJob": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"businessUnit": {
+								"type": "string"
+							},
+							"number": {
+								"type": "string"
+							},
+							"type": {
+								"type": "string"
+							},
+							"description": {
+								"type": "string"
+							},
+							"feeEarnedInPreviousYears": {
+								"type": "number"
+							},
+							"feeJointVenturePercentage": {
+								"type": "integer"
+							},
+							"feeAttainment": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"year": {
+											"type": "integer"
+										},
+										"percentage": {
+											"type": "number"
+										}
+									}
+								}
+							},
+							"feeSavingsThreshold": {
+								"type": "integer"
+							},
+							"feeSavingsPercentage": {
+								"type": "integer"
+							},
+							"feeCumulativeLabor": {
+								"type": "integer"
+							},
+							"dateSync": {
+								"type": "string"
+							},
+							"isBillable": {
+								"type": "boolean"
+							}
+						}
+					}
+				},
+				"pendingItemsCategories": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"punchListTypes": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"projectAliases": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"photo": {
+					"type": "object",
+					"properties": {
+						"created": {
+							"type": "string"
+						},
+						"creatorID": {
+							"type": "string"
+						},
+						"downloadURL": {
+							"type": "string"
+						},
+						"entityID": {
+							"type": "string"
+						},
+						"filename": {
+							"type": "string"
+						},
+						"mimeType": {
+							"type": "string"
+						},
+						"normalizedID": {
+							"type": "string"
+						},
+						"normalizedURL": {
+							"type": "string"
+						},
+						"size": {
+							"type": "integer"
+						},
+						"thumbnailId": {
+							"type": "string"
+						},
+						"thumbnailURL": {
+							"type": "string"
+						}
+					}
+				},
+				"planRoomDisciplines": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"name": {
+								"type": "string"
+							},
+							"rank": {
+								"type": "integer"
+							}
+						}
+					}
+				},
+				"planRoomPackageReleases": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"planRoomTypes": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"refLocations": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"_id": {
+								"type": "string"
+							},
+							"isActive": {
+								"type": "boolean"
+							},
+							"name": {
+								"type": "string"
+							},
+							"size": {
+								"type": "integer"
+							},
+							"keywords": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"refMarkets": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"isActive": {
+								"type": "boolean"
+							},
+							"name": {
+								"type": "string"
+							},
+							"_id": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"refMarketPrimary": {
+					"type": "object",
+					"properties": {
+						"isActive": {
+							"type": "boolean"
+						},
+						"name": {
+							"type": "string"
+						},
+						"_id": {
+							"type": "string"
+						}
+					}
+				},
+				"submittalTypes": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"submittalCategories": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"refCompaniesAdminPercentages": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"refCompany": {
+								"type": "object",
+								"properties": {
+									"isActive": {
+										"type": "boolean"
+									},
+									"name": {
+										"type": "string"
+									},
+									"_id": {
+										"type": "string"
+									}
+								}
+							},
+							"percent": {
+								"type": "integer"
+							}
+						}
+					}
+				},
+				"timezone": {
+					"type": "string"
+				},
+				"isBillable": {
+					"type": "boolean"
+				},
+				"totalCompany": {
+					"type": "integer"
+				},
+				"totalPeople": {
+					"type": "integer"
+				},
+				"roleCounts": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"name": {
+								"type": "string"
+							},
+							"counts": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"company": {
+											"type": "string"
+										},
+										"people": {
+											"type": "integer"
+										},
+										"refCompany": {
+											"type": "object",
+											"properties": {
+												"_id": {
+													"type": "string"
+												},
+												"isActive": {
+													"type": "boolean"
+												},
+												"name": {
+													"type": "string"
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"warrantyCategories": {
+					"type": "array"
+				},
+				"rfiCategories": {
+					"type": "array"
+				},
+				"changeEventsCategories": {
+					"type": "array"
+				},
+				"deliveryMethod": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"imageTypes": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"addressJobsiteStreet2": {
+					"type": "string"
+				},
+				"businessStrategies": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"refManagingOffice": {
+					"type": "object",
+					"properties": {
+						"isActive": {
+							"type": "boolean"
+						},
+						"name": {
+							"type": "string"
+						},
+						"_id": {
+							"type": "string"
+						}
+					}
+				},
+				"refRegions": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"isActive": {
+								"type": "boolean"
+							},
+							"city": {
+								"type": "string"
+							},
+							"state": {
+								"type": "string"
+							},
+							"country": {
+								"type": "string"
+							},
+							"name": {
+								"type": "string"
+							},
+							"_id": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
