@@ -1,0 +1,12 @@
+{
+	"name": "adftranininglab",
+	"properties": {
+		"globalParameters": {
+			"test": {
+				"type": "string",
+				"value": "aa"
+			}
+		}
+	},
+	"location": "eastus"
+}
